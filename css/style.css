@@ -1,0 +1,118 @@
+:root {
+    --main-bg-color: rgb(25, 15, 60);
+    --itchio-primary:#fa5c5c;
+    --itchio-bg-1:#222222;
+    --itchio-bg-2:#434343;
+    --itchio-bg-3:#858585;
+}
+
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--main-bg-color);
+    min-height: 100vh;
+}
+
+header{
+    height: 160px;
+}
+
+.banner {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    width: 100vw;
+    height: 160px;
+}
+.profile {
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+}
+
+.nombre{
+    float: left;
+    color: white;
+    height: 160px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 3em;
+    width: 15vw;
+    min-width: 250px;
+}
+
+.nombre span {
+    height: 160px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+
+
+
+
+section{
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    line-height: 1000px;
+}
+
+
+
+
+
+
+footer{
+    width: 100vw;
+    height: 160px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.rrss_icon{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rrss_icon a {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.rrss_icon img{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#itchio {
+    background-color: var(--itchio-primary);
+}
+
+#github {
+    background-color: white;
+}
