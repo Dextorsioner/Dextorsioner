@@ -1,9 +1,11 @@
 :root {
-    --main-bg-color: rgb(25, 15, 60);
+    --main-bg-color: #190f3c;
+    --main-bg-black: #00000080;
     --itchio-primary:#fa5c5c;
     --itchio-bg-1:#222222;
     --itchio-bg-2:#434343;
     --itchio-bg-3:#858585;
+    --font-color:#ffffff;
 }
 
 * {
@@ -11,6 +13,17 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+.selectable {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+.itchio {
+    color: var(--itchio-primary);
 }
 
 body{
@@ -24,8 +37,15 @@ header{
     height: 160px;
 }
 
+h1{
+    font-size: 50px;
+    background-color: var(--main-bg-black);
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 1vw;
+}
 .banner {
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: var(--main-bg-black);
     width: 100vw;
     height: 160px;
 }
@@ -43,7 +63,7 @@ header{
 
 .nombre{
     float: left;
-    color: white;
+    color: var(--font-color);
     height: 160px;
     line-height: 150px;
     text-align: center;
@@ -68,9 +88,7 @@ section{
     width: 100vw;
     height: fit-content;
     text-align: center;
-    color: white;
-    font-size: 100px;
-    line-height: 1000px;
+    color: var(--font-color);
 }
 
 
@@ -81,7 +99,7 @@ section{
 footer{
     width: 100vw;
     height: 160px;
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: var(--main-bg-black);
     position: absolute;
     left: 0;
     bottom: 0;
