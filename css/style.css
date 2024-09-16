@@ -44,6 +44,23 @@ h1{
     margin-right: 10vw;
     padding: 1vw;
 }
+
+h2{
+    font-size: 30px;
+    background-color: var(--main-bg-black);
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 0.5vw;
+}
+
+h3{
+    font-size: 30px;
+    background-color: var(--main-bg-black);
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding: 0.2vw;
+}
+
 .banner {
     background-color: var(--main-bg-black);
     width: 100vw;
@@ -79,22 +96,12 @@ h1{
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
-
-
-
-
-
 section{
     width: 100vw;
     height: fit-content;
     text-align: center;
     color: var(--font-color);
 }
-
-
-
-
-
 
 footer{
     width: 100vw;
